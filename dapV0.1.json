@@ -1,0 +1,66 @@
+{
+  "Name": "dapV0.1",
+  "CreationDate": "2022-9-24",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://firealarm.qfactor.id/login",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "name=username",
+      "Value": "noc",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "name=password",
+      "Value": "telkom135",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "xpath=/html/body/section/div/div/div/form/div[2]/div/div[5]/div/button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "linkText=TELKOM RIVAI",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "hacl",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "linkText=STO Medan Centrum",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "hacl",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "linkText=STO KALIASEM",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "run",
+      "Target": "hacl",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
